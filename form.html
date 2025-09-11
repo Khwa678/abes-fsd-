@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            justify-self: unset;
+            justify-content: center;
+            color:rgb(7, 36, 225);
+        }
+        form{
+            border: 7px solid black;
+justify-content: center;
+text-align: center;
+margin: 0px 90px 50px 50px;
+        }
+        input{
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>registration form</h1></header>
+<br>
+    <main>
+      <form action="welcome.html">
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" required />
+        <br /><br>       <label for="rollno">rollno </label>
+        <input type="text" name="rollno" id="rollno" required />
+        <br/><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required />
+        <br>
+        <br>
+        <label for="gender">gender</label>
+
+        <input type="radio" name="female" id="female" />
+        female
+        <input type="radio" name="female" id="male" />
+        male
+        <br /><br>
+<label for="language">
+    Language :
+</label>
+<select name="language"id="language">
+    <option value="c++">c++</option>
+    <option value="java">java</option>
+    <option value="python"selected>python</option>
+    <option value="javascript">javascript</option>
+    <option value="html">html</option>
+</option>
+</select>
+<br>
+<br>
+<input type="submit" value="submit"/>
+<br>
+<br>
+<input type="reset" value="reset"/>
+
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
